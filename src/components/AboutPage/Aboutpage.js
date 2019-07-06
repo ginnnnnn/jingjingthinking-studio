@@ -1,5 +1,6 @@
 import React from 'react';
 import './aboutpage.css';
+import { aboutContent } from './aboutContent'
 
 const AboutPage = () => {
     return (
@@ -8,37 +9,20 @@ const AboutPage = () => {
                 <div className="about-page_header_title">
                     <h3 >
                         <span >
-                            This is about me
+                            {aboutContent.title}
                         </span>
                     </h3>
-                    <h4 >A man who enjoy challenge</h4>
-                    <h5 >Tzu Ching Chen</h5>
+                    <h4 >{aboutContent.title_2}</h4>
+                    <h5 >{aboutContent.title_3}</h5>
                 </div>
             </div>
             <div className="about-page_content">
-                <p >
-                    nice
-          </p>
-                <p >
-                    Web developer /Chef /Special Force etc...
-                    lorem
-                    Web developer /Chef /Special Force etc...
-                    lorem  Web developer /Chef /Special Force etc...
-                    lorem  Web developer /Chef /Special Force etc...
-                    lorem  Web developer /Chef /Special Force etc...
-                    lorem  Web developer /Chef /Special Force etc...
-                    lorem  Web developer /Chef /Special Force etc...
-                    lorem  Web developer /Chef /Special Force etc...
-                    lorem
-          </p>
-                <p >
-                    tons
-          </p>
-                <p >
-                    thank you
-          </p>
+                <p>{aboutContent.para_1}</p>
+                <p>{aboutContent.para_2}</p>
+                <p>{aboutContent.para_3}</p>
+                <p>{aboutContent.para_4}</p>
+                <p>{aboutContent.para_5}</p>
 
-                <p >see you</p>
             </div>
         </div>
     );
