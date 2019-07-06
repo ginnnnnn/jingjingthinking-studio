@@ -11,4 +11,7 @@ applied react hooks.
 
 applied code spliting.
 
+applied contextAPI
+
+
 
