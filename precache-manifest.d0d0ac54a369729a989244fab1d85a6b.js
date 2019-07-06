@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc59fcb49de35f44f8a83e734b2c0316",
+    "revision": "3dbcd9a8a4956755a0378ea0ae108df7",
     "url": "/jingjingthinking-studio/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jingjingthinking-studio/static/css/4.0335e9fe.chunk.css"
   },
   {
-    "revision": "3f3de1c4f7f46ddd6911",
+    "revision": "9eda198be015e5d144fc",
     "url": "/jingjingthinking-studio/static/css/main.f57783c8.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jingjingthinking-studio/static/js/4.c98395be.chunk.js"
   },
   {
-    "revision": "3f3de1c4f7f46ddd6911",
-    "url": "/jingjingthinking-studio/static/js/main.a7434fd5.chunk.js"
+    "revision": "9eda198be015e5d144fc",
+    "url": "/jingjingthinking-studio/static/js/main.3b3c540c.chunk.js"
   },
   {
     "revision": "6d2f4b475fcd4538fd01",
