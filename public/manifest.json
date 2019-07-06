@@ -1,10 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "JingJing",
+  "name": "JingJing Thinking",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "logo.png",
+      "sizes": "64x128 32x64 24x48 16x32",
       "type": "image/x-icon"
     }
   ],
