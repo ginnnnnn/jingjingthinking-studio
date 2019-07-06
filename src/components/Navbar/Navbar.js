@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { PageContext } from '../../contexts/PageContext'
 import './navbar.css';
 
-const Navbar = ({ onRouteChange }) => {
+const Navbar = () => {
+    const { onRouteChange } = useContext(PageContext)
     return (
         <nav>
             <div><span className="logo-1">Jing</span><span className="logo-2">Jing</span><span className="logo-3">Thinking</span></div>
