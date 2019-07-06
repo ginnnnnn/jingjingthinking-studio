@@ -1,13 +1,89 @@
+*{
+  box-sizing:border-box;
+  
+}
+html {
+  height:100%;
+}
 body {
+  width:100%;
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:rgb(192, 170, 170);
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.App{
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 6rem 1fr 9rem;
+  grid-template-areas: "header"
+                        "main"
+                       "footer";
+}
+
+nav {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.main-footer {
+  grid-area: footer;
+}
+
+
+.first-page-theme {
+  background: linear-gradient(to bottom,rgba(20, 20, 20, 0.6) 100%,transparent),url("./assests//index-bg.png")  left 0% bottom 0%/cover no-repeat ;
+}
+
+.first-page-theme .index-link{
+  color:grey;
+  cursor: no-drop;
+}
+
+.about-page-theme {
+  background: #cfc209;
+}
+
+.about-page-theme nav{
+  background: #cfc209;
+}
+
+.about-page-theme .about-link{
+  color:grey;
+  cursor: no-drop;
+}
+
+.about-page-theme .main-footer{
+  background:rgba(0, 0, 0, 0.2);
+}
+.contact-page-theme {
+  background: linear-gradient(to bottom,rgba(68, 68, 66, 0.6) 100%,transparent),url("./assests/contact-bg.jpg")  left 0% bottom 0%/cover no-repeat ;
+}
+
+.contact-page-theme .contact-link {
+  color:grey;
+  cursor: no-drop;
+}
+
+.contact-page-theme .main-footer{
+  background:#ffffff65;
+}
+
+@media (min-width:500px) {
+  .first-page-theme {
+    background: linear-gradient(to bottom,rgba(20, 20, 20, 0.6) 100%,transparent),url("./assests/index-gb-l.jpg")  left 0% bottom 0%/cover no-repeat ;
+  }
+ 
+  .contact-page-theme {
+    background: linear-gradient(to bottom,rgba(68, 68, 66, 0.6) 100%,transparent),url("./assests/contact-bg-l.png")  left 0% bottom 0%/cover no-repeat ;
+  }
 }

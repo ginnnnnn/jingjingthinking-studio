@@ -1,0 +1,50 @@
+.contact-page{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    width: 20rem;
+    max-width: 32rem;
+    border-color: rgba( 0, 0, 0, .1 );
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25rem;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.contact-page img {
+    display: block;
+    max-width: 100%;
+    border-style: none;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.contact-page hr{
+    max-width: 4rem;
+    border-width: .125rem;
+    border-color: rgba( 0, 0, 0, .1 );
+    border-bottom-style: solid;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.email {
+    border:none;
+    padding:5px 1.5rem;
+    box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 );
+    border-radius: 9999px;
+}
+
+.location {
+    font-size: .875rem;
+    color: rgba( 0, 0, 0, .7 );
+}

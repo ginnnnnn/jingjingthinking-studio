@@ -1,0 +1,106 @@
+.first-page{
+    height:100%;
+}
+.first-page_content {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.greeting {
+    margin-top:5rem;
+    font-size: 2rem;
+    animation: easeOutBounce 2s 3s 3 none;
+}
+.logo-brand {
+    margin:0;
+    font-size: 2.5rem;
+    display: none;
+}
+.logo-brand_1{
+    font-weight: 800;
+    font-style: italic;
+    color:yellow;
+}
+.logo-brand_2{
+    font-weight: 400;
+    font-style: italic;
+    color: crimson;
+}
+.logo-brand_3{
+    font-weight:900;
+    color: blue;
+}
+.leading{
+    margin-top:1.5rem;
+    color:#eee;
+    padding:1rem 2rem;
+    border: 3px solid rgb(231, 235, 5);
+    border-radius: 10px;
+    cursor:pointer;
+    background: rgba(0,0,0,0.3);
+    animation: wiggle 400ms ease-in 1s 8 alternate backwards ;
+
+}
+.leading:hover{
+    padding:1.1rem 2.1rem;
+    border: 4px solid rgb(231, 235, 5);
+    background: none;
+}
+
+@media (min-width:500px){
+    .logo-brand {
+        display: block;
+    }
+}
+
+@keyframes easeOutBounce {
+	0% {
+		transform: translateY(30%);
+	}
+
+	24% {
+		transform: translateY(-40%);
+	}
+
+	36% {
+		transform: translateY(10%);
+	}
+
+	54% {
+		transform: translateY(-30%);
+	}
+
+	74% {
+		transform: translateY(8%);
+	}
+
+	82% {
+		transform: translateY(-20%);
+	}
+
+	92% {
+		transform: translateY(5%);
+	}
+
+	96% {
+		transform: translateY(-9%);
+	}
+
+	100% {
+		transform: translateY(1%);
+	}
+
+}
+
+@keyframes wiggle {
+    from{
+      transform:rotateZ(-10deg);
+    }
+    to{
+      transform:rotateZ(10deg);
+    }
+  }
+
+
