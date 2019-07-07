@@ -32,7 +32,7 @@ const Footer = () => {
                     </svg>
                 </a>
                 <a
-                    href="/"
+                    href="https://ginnnnnn.github.io/jingjingthinking-studio/"
                 >
                     <svg
                         data-icon="dribbble"

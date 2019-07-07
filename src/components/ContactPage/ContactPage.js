@@ -13,7 +13,7 @@ const ContactPage = () => {
 
 
             <p className="email">
-                jingjingjingthinking@gmail.com
+                jingjingthinking@gmail.com
     </p>
             <p className="location">
                 Loc. Tainan,Taiwan
