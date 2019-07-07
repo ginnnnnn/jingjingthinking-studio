@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a949c210da6169b5bae0a0e7d6b1a6b",
+    "revision": "9fc4df9864100e8857a9d548fce746bf",
     "url": "/jingjingthinking-studio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jingjingthinking-studio/static/css/3.e0f20f29.chunk.css"
   },
   {
-    "revision": "5c200d18c29b807a352d",
+    "revision": "ee661e9532311734708c",
     "url": "/jingjingthinking-studio/static/css/4.c52db53d.chunk.css"
   },
   {
@@ -24,16 +24,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jingjingthinking-studio/static/js/3.c53aac99.chunk.js"
   },
   {
-    "revision": "5c200d18c29b807a352d",
-    "url": "/jingjingthinking-studio/static/js/4.c98395be.chunk.js"
+    "revision": "ee661e9532311734708c",
+    "url": "/jingjingthinking-studio/static/js/4.aea8b711.chunk.js"
   },
   {
     "revision": "9eda198be015e5d144fc",
     "url": "/jingjingthinking-studio/static/js/main.3b3c540c.chunk.js"
   },
   {
-    "revision": "067259446fc00ff38059",
-    "url": "/jingjingthinking-studio/static/js/runtime~main.5e9e229e.js"
+    "revision": "fbfd76d151c779b179f1",
+    "url": "/jingjingthinking-studio/static/js/runtime~main.4034e162.js"
   },
   {
     "revision": "404ff6b8a3809ee54ec1126fc797b4d8",
